@@ -35566,12 +35566,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 71px;
+  min-height: 121px;
 }
 
 .u-footer .u-text-1 {
   width: 417px;
-  margin: 49px auto 0;
+  margin: 49px auto 50px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
