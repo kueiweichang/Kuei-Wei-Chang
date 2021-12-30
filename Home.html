@@ -27,7 +27,25 @@
     <meta property="og:title" content="Home">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-  </head>
+  <script>
+    function gdprConfirmed() {
+        return true;
+    }
+    if (gdprConfirmed()) {
+    document.write("\
+    \
+    <!-- Google Analytics -->\
+    <gascript async src=\"https://www.googletagmanager.com/gtag/js?id=G-6F87VW7V2J\"></gascript>\
+    <gascript>\
+        window.dataLayer = window.dataLayer || [];\
+        function gtag(){dataLayer.push(arguments);}\
+        gtag('js', new Date());\
+        gtag('config', 'G-6F87VW7V2J');\
+    </gascript>\
+    <!-- End Google Analytics -->\
+    ".replace(/gascript/g, 'script'));
+    }
+    </script></head>
   <body class="u-body u-stick-footer"><header class="u-clearfix u-header u-header" id="sec-21fa"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="Home.html" data-page-id="55581891" class="u-image u-logo u-image-1" data-image-width="742" data-image-height="267" title="Home">
           <img src="images/signature.png" class="u-logo-image u-logo-image-1">

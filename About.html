@@ -30,7 +30,25 @@
     <meta property="og:title" content="About">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-  </head>
+  <script>
+    function gdprConfirmed() {
+        return true;
+    }
+    if (gdprConfirmed()) {
+    document.write("\
+    \
+    <!-- Google Analytics -->\
+    <gascript async src=\"https://www.googletagmanager.com/gtag/js?id=G-6F87VW7V2J\"></gascript>\
+    <gascript>\
+        window.dataLayer = window.dataLayer || [];\
+        function gtag(){dataLayer.push(arguments);}\
+        gtag('js', new Date());\
+        gtag('config', 'G-6F87VW7V2J');\
+    </gascript>\
+    <!-- End Google Analytics -->\
+    ".replace(/gascript/g, 'script'));
+    }
+    </script></head>
   <body class="u-body u-stick-footer"><header class="u-clearfix u-header u-header" id="sec-21fa"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="Home.html" data-page-id="55581891" class="u-image u-logo u-image-1" data-image-width="742" data-image-height="267" title="Home">
           <img src="images/signature.png" class="u-logo-image u-logo-image-1">
@@ -87,10 +105,10 @@
         <p class="u-text u-text-2"> MFA of Plastic Arts, National
 Taiwan University of Arts.&nbsp;Studied under the late master Pao Chia Lin, Professor Yu Tang Wu, and Professor
 Zhen Zhou Liu.<br>國立台灣藝術大學造形藝術研究所 藝術碩士(MFA),&nbsp; &nbsp;師從已故國寶級藝術大師林葆家教授，以及吳毓棠教授和劉鎮洲教授。&nbsp; &nbsp;<br>
-          <br>His artworks have been collected by The British Museum, the Victoria &amp; Albert Museum, the National Palace Museum in Taiwan, etc.<br>作品收藏於大英博物館，英國V&amp;A國家博物館，和台灣故宮博物院等。<br>
+          <br>His works have been collected by The British Museum, the Victoria &amp; Albert Museum, the National Palace Museum in Taiwan, etc.<br>作品收藏於大英博物館，英國V&amp;A國家博物館，和台灣故宮博物院等。<br>
           <br> Executive council member and honorary member of the Belgian International Chawan Expo; formerly, a lecturer in the Department of Arts and Crafts, ​Tung Fang Design University, and Vice Chairman of Kaohsiung Ceramic Industry Alliance.<br> 現任比利時國際茶碗博覽會常務理事並獲頒「火騎士榮譽會員」,
 曾任職東方設計大學美術工藝系講師,
-高雄窯業聯盟 副理事長。&nbsp;<br>
+高雄窯業聯盟副理事長。&nbsp;<br>
         </p>
       </div>
     </section>
@@ -109,14 +127,14 @@ Zhen Zhou Liu.<br>國立台灣藝術大學造形藝術研究所 藝術碩士(MFA
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-1">Museum Collections<br>博物館典藏
         </h2>
-        <p class="u-align-left u-text u-text-2">2019 "Golden Hare's Fur Meditation Bowl" and "Ocean Blue with Golden Waves Oil-Spot Tenmoku Teal Bowl" Fo Guang Shan Buddha Museum, Taiwan<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《金絲兔毫禪定缽》《藍海金波油滴茶碗》榮獲佛陀紀念館永久典藏&nbsp; <br>2015&nbsp; “Golden Oil Spots, Golden Hare's
-  Fur Tea Bowl” The British Museum, England&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《金曜油滴天目茶盞》《金絲兔毫茶盞》榮獲大英博物館永久典藏<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;​ “Golden Oil-Spot Tenmoku Tea Bowl", "Silver Oil-Spot Tenmoku Tea Bowl" National Palace Museum,
-  Taiwan&nbsp; &nbsp;&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《金曜油滴天目茶盞》《銀輝油滴天目茶盞》榮獲國立臺北故宮博物院研究典藏<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; “Golden Oil-Spot Tenmoku Tea Bowl", "Silver Oil-Spot Tenmoku Tea Bowl" and "Golden Hare's Fur Tea
-  Bowl” <a href="http://www.vam.ac.uk/" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">Victoria and Albert Museum</a>, England&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《金曜油滴天目茶盞》《金絲兔毫茶盞》《銀輝油滴天目茶盞》榮獲英國V&amp;A國家博物館永久典藏<br>2014&nbsp; "Golden Iridescence-Oil Spot Tenmoku
-  Tea Bowl ". National Palace Museum, Taiwan&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 《金彤油滴天目茶盞》榮獲國立臺北故宮博物院研究典藏<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; “Golden Iridescence Oil Spots Tenmoku Tea
-  Bowl” and “Silver Oil Spots Tenmoku Tea Bowl”. Famen Temple Museum, China&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《金彤油滴茶碗》《銀輝油滴茶碗》榮獲西安法門寺珍寶館永久典藏<br>2010&nbsp; &nbsp;"Fine Birds Choose Their Habitats,"
+        <p class="u-align-left u-text u-text-2">2019&nbsp; "Golden Hare's Fur Meditation Bowl" and "Ocean Blue with Golden Waves Oil-Spot Tenmoku Teal Bowl" Fo Guang Shan Buddha Museum, Taiwan<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 《金絲兔毫禪定缽》《藍海金波油滴茶碗》榮獲佛陀紀念館永久典藏&nbsp; <br>2015&nbsp; &nbsp;“Golden Oil Spots, Golden Hare's
+  Fur Tea Bowl” The British Museum, England&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 《金曜油滴天目茶盞》《金絲兔毫茶盞》榮獲大英博物館永久典藏<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ​“Golden Oil-Spot Tenmoku Tea Bowl", "Silver Oil-Spot Tenmoku Tea Bowl" National Palace Museum,
+  Taiwan&nbsp; &nbsp;&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 《金曜油滴天目茶盞》《銀輝油滴天目茶盞》榮獲國立臺北故宮博物院研究典藏<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; “Golden Oil-Spot Tenmoku Tea Bowl", "Silver Oil-Spot Tenmoku Tea Bowl" and "Golden Hare's Fur Tea
+  Bowl” Victoria and Albert Museum, England&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 《金曜油滴天目茶盞》《金絲兔毫茶盞》《銀輝油滴天目茶盞》榮獲英國V&amp;A國家博物館永久典藏<br>2014&nbsp; "Golden Iridescence-Oil Spot Tenmoku
+  Tea Bowl " National Palace Museum, Taiwan&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《金彤油滴天目茶盞》榮獲國立臺北故宮博物院研究典藏<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;“Golden Iridescence Oil Spots Tenmoku Tea
+  Bowl” and “Silver Oil Spots Tenmoku Tea Bowl” Famen Temple Museum, China&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《金彤油滴茶碗》《銀輝油滴茶碗》榮獲西安法門寺珍寶館永久典藏<br>2010&nbsp; "Fine Birds Choose Their Habitats,"
   a&nbsp;public art ceramic exhibition wall,&nbsp;commissioned for the Library
-  of Kao Yuan University, Taiwan&nbsp;&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 公共藝術陶壁(良禽擇地而棲)裝置於高苑科技大學圖書館大廳<br>
+  of Kao Yuan University, Taiwan&nbsp;&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;公共藝術陶壁(良禽擇地而棲)裝置於高苑科技大學圖書館大廳<br>
         </p>
       </div>
     </section>
