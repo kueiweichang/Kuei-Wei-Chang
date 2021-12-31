@@ -104,11 +104,11 @@
   }
 
   .u-section-1 .u-sheet-1 {
-    min-height: 664px;
+    min-height: 663px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 271px;
+    margin-top: 270px;
   }
 
   .u-section-1 .u-btn-1 {
@@ -566,9 +566,9 @@
 
   .u-section-2 .u-text-1 {
     font-size: 1.5rem;
-    margin-left: 0;
-    margin-right: 0;
     width: 340px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-2 .u-image-1 {

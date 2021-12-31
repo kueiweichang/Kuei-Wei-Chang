@@ -35560,10 +35560,14 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 @media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 115px;
+  }
+
   .u-header .u-menu-1 {
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: 0;
+    margin-top: -38px;
+    margin-right: 35px;
+    margin-bottom: 42px;
   }
 }
 @media (max-width: 575px) {
@@ -35572,7 +35576,9 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin: -45px 36px -11px auto;
+    margin-top: -44px;
+    margin-right: 0;
+    margin-bottom: 32px;
   }
 }
  .u-footer {
